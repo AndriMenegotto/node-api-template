@@ -1,4 +1,4 @@
-unit-test:
+all-tests:
 	npm run test
 
 run:

@@ -1,4 +1,4 @@
-const healthCheck = require('../../src/controllers/healthCheck')
+const healthCheck = require('../../../src/controllers/healthCheck')
 const httpStatus = require('http-status')
 
 const expectedResponse = JSON.stringify({ status: httpStatus.OK, message: 'OK' })

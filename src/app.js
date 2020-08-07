@@ -9,7 +9,7 @@ const app = express()
 app.use(bodyParser.json())
 app.use(
     cors({
-        methods: 'GET'
+        methods: 'GET,PUT,PATCH,POST,DELETE'
     }))
 
 app.use("/", routes)
